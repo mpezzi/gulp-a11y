@@ -33,6 +33,6 @@ gulp.task('audit', function () {
       viewportSize: '800x600',
       delay: 1
     }))
-    .pipe(a11y.report());
+    .pipe(a11y.reporter());
 });
 ```
