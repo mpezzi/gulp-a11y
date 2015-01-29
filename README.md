@@ -16,7 +16,7 @@ var a11y = require('gulp-a11y');
 gulp.task('audit', function () {
   return gulp.src('./**/*.html')
     .pipe(a11y())
-    .pipe(a11y.report());
+    .pipe(a11y.reporter());
 });
 ```
 
