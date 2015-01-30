@@ -4,6 +4,7 @@
   "description": "A Gulp plugin for a11y to run accessibility audits on html files.",
   "main": "./src/index.js",
   "keywords": [
+    "a11y",
     "gulpplugin"
   ],
   "scripts": {
