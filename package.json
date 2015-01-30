@@ -10,7 +10,7 @@
   "scripts": {
     "test": "mocha"
   },
-  "author": "Michael Pezzi <michael.pezzi@acquia.com>",
+  "author": "Michael Pezzi <mike@thespiral.ca>",
   "license": "MIT",
   "dependencies": {
     "a11y": "^0.2.3",
