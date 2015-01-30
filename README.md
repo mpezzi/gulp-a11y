@@ -2,6 +2,8 @@
 
 A [Gulp](https://github.com/gulpjs/gulp) plugin for [a11y](https://github.com/addyosmani/a11y) to run accessibility audits on html files.
 
+[![Build Status](https://travis-ci.org/mpezzi/gulp-a11y.svg?branch=master)](https://travis-ci.org/mpezzi/gulp-a11y)
+
 ## Installation
 
 ```shell
