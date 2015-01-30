@@ -3,6 +3,12 @@
   "version": "0.1.0",
   "description": "A Gulp plugin for a11y to run accessibility audits on html files.",
   "main": "./src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mpezzi/gulp-a11y"
+  },
+  "homepage": "http://github.com/mpezzi/gulp-a11y",
+  "bugs": "https://github.com/mpezzi/gulp-a11y/issues",
   "keywords": [
     "a11y",
     "gulpplugin"
