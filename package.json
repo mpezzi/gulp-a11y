@@ -1,6 +1,6 @@
 {
   "name": "gulp-a11y",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A Gulp plugin for a11y to run accessibility audits on html files.",
   "main": "./src/index.js",
   "repository": {
