@@ -1,6 +1,6 @@
 {
   "name": "gulp-a11y",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A Gulp plugin for a11y to run accessibility audits on html files.",
   "main": "./src/index.js",
   "repository": {
@@ -14,12 +14,12 @@
     "gulpplugin"
   ],
   "scripts": {
-    "test": "mocha"
+    "test": "mocha --timeout 10000"
   },
   "author": "Michael Pezzi <mike@thespiral.ca>",
   "license": "MIT",
   "dependencies": {
-    "a11y": "^0.2.3",
+    "a11y": "^0.4.1",
     "gulp-util": "^3.0.2",
     "indent-string": "^1.2.0",
     "log-symbols": "^1.0.1",
