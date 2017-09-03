@@ -46,9 +46,9 @@ var Utils = {
 
     if (passes || failures) {
       output += '\n\n';
-      output += indentString(gutil.colors.yellow(file.path), ' ', 2);
+      output += indentString(gutil.colors.yellow(file.path), 2, ' ');
       output += '\n\n';
-      output += indentString(failures + passes, ' ', 2);
+      output += indentString(failures + passes, 2, ' ');
     }
 
     return output;
