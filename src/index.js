@@ -3,9 +3,7 @@
 var utils        = require('./utils'),
     a11y         = require('a11y'),
     map          = require('map-stream'),
-    gutil        = require('gulp-util'),
-    logSymbols   = require('log-symbols'),
-    indentString = require('indent-string');
+    gutil        = require('gulp-util');
 
 var PluginError  = gutil.PluginError;
 
