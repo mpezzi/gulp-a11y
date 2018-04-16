@@ -1,6 +1,7 @@
 'use strict';
 
-var gutil        = require('gulp-util'),
+var colors       = require('ansi-colors'),
+    log          = require('fancy-log'),
     logSymbols   = require('log-symbols'),
     indentString = require('indent-string');
 
@@ -12,7 +13,7 @@ var Utils = {
   resolveWritable: function (writable) {
 
     if (!writable) {
-      writable = gutil.log;
+      writable = log;
     }
     else if (typeof writable === 'function') {
       writable = writable.bind(writable);
@@ -46,9 +47,9 @@ var Utils = {
 
     if (passes || failures) {
       output += '\n\n';
-      output += indentString(gutil.colors.yellow(file.path), ' ', 2);
+      output += indentString(colors.yellow(file.path), 2);
       output += '\n\n';
-      output += indentString(failures + passes, ' ', 2);
+      output += indentString(failures + passes, 2);
     }
 
     return output;

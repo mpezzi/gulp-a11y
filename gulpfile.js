@@ -7,7 +7,7 @@ gulp.task('lint', function () {
 
   return gulp.src('./src/**/*.js')
     .pipe(eslint({
-      configFile: '.eslintrc'
+      configFile: '.eslintrc.js'
     }))
     .pipe(eslint.format())
     .pipe(eslint.failOnError());
