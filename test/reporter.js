@@ -1,7 +1,7 @@
 'use strict';
 
 var should = require('should'),
-    gutil  = require('gulp-util'),
+    Vinyl  = require('vinyl'),
     a11y   = require('../src/');
 
 describe('gulp-a11y format', function () {
@@ -10,7 +10,7 @@ describe('gulp-a11y format', function () {
 
   beforeEach(function () {
 
-    fixture = new gutil.File({
+    fixture = new Vinyl({
       base: __dirname + '/fixtures/',
       cwd: __dirname,
       path: __dirname + '/fixtures/fixture.html'
