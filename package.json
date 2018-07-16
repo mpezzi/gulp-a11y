@@ -19,7 +19,7 @@
   "author": "Michael Pezzi <mike@thespiral.ca>",
   "license": "MIT",
   "dependencies": {
-    "a11y": "^0.4.1",
+    "a11y": "^0.5.1",
     "gulp-util": "^3.0.2",
     "indent-string": "^1.2.0",
     "log-symbols": "^1.0.1",
